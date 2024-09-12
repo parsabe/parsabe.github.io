@@ -248,7 +248,7 @@ document.addEventListener("DOMContentLoaded", function () {
         addOutputToTerminal('<hr/>')
 
 
-        addOutputToTerminal("<h4><b>2. Parsai</b></h4>");
+        addOutputToTerminal("<h4><b>Parsai</b></h4>");
         addOutputToTerminal(
           "Parsai combines a powerful VS Code extension and a Telegram bot to provide versatile coding assistance using OpenAIs GPT-4."
         );
@@ -263,7 +263,51 @@ document.addEventListener("DOMContentLoaded", function () {
 
         addOutputToTerminal('<hr/>');
 
+        
+  addOutputToTerminal("<h4><b>MLMatrix</b></h4>");
+        addOutputToTerminal(
+          "This repository features four in-depth articles covering a range of cutting-edge technologies and their applications. Explore the fascinating intersections of my data science projects."
+        );
+        const downloadLink202 = document.createElement("a");
+        downloadLink202.href = "https://github.com/parsabe/MLMatrix"; // Replace with the actual file path or URL
+        downloadLink202.textContent = "Documentation";
+        downloadLink202.className= "btn btn-outline-primary";
+        
+        addOutputToTerminal('<br/>')
 
+        addOutputToTerminal(downloadLink202);
+
+        addOutputToTerminal('<hr/>')
+
+
+
+
+
+ addOutputToTerminal("<h4><b>NetNexus</b></h4>");
+        addOutputToTerminal(
+          "A collection of innovative web projects including a dynamic website, an engaging online riddle game, a social media platform, and a chat portal. Explore creative solutions and interactive experiences."
+        );
+        const downloadLink102 = document.createElement("a");
+        downloadLink102.href = "https://github.com/parsabe/NetNexus"; // Replace with the actual file path or URL
+        downloadLink102.textContent = "Documentation";
+        downloadLink102.className= "btn btn-outline-primary";
+        
+        addOutputToTerminal('<br/>')
+
+        addOutputToTerminal(downloadLink102);
+
+        addOutputToTerminal('<hr/>')
+
+
+
+
+
+
+
+
+
+        
+        
 
         addOutputToTerminal("<h4><b>PHPortal</b></h4>");
         addOutputToTerminal(
